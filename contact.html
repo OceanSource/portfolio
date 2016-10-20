@@ -75,7 +75,8 @@
                         Use the form provided, check me out on <a href="https://www.linkedin.com/in/ty-hatton-38820111" target="_new">LinkedIn</a>
                     </h2> </div>
                         <div class="col-md-8 os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.3s" style="animation-delay: 0.3s;">
-                            <form action="contact_mailer.php" class="contact-form">
+                            <form action="https://getsimpleform.com/messages?form_api_token=4019eacfb42fc6647be5fb5a34695a7d" method="post" class="contact-form">
+                                <input type='hidden' name='redirect_to' value='http://tyhatton.com' />
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group form-icon-group"> <i class="fa fa-user"></i>
@@ -93,7 +94,6 @@
                                     <input type="submit" value="Send email" class="btn btn-primary"> </div>
                                 <div class="messages text-center"></div>
                             </form>
-
                             <div class="divider-wrapper">
                                 <div class="visible-xs element-height-80"></div>
                                 <div class="visible-sm element-height-80"></div>
@@ -164,6 +164,15 @@
     </script>
     <!-- <script src="assets/js/map.min.js"></script> -->
 
-<script aria-hidden="true" type="application/x-lastpass" id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-86055111-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </body>
 </html>
